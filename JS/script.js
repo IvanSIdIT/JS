@@ -1,14 +1,26 @@
+//СТРОГИЙ РЕЖИМ
 'use strict';
 
-let Messi = 'GOAT';
-console.log(Messi);
+// let Messi = 'GOAT';
+// console.log(Messi);
 
-Messi = 'BEST';
-console.log(Messi);
+// Messi = 'BEST';
+// console.log(Messi);
 
-//Дз
-let userName = 'Вася';
+//ДЗ №1
 
-let user = userName;
+// let userName = 'Вася';
 
-console.log(user);
+// let user = userName;
+
+// console.log(user);
+
+//конец ДЗ №1
+
+// let test = 1;
+
+// console.log(test);
+
+// test = Boolean(test);
+
+// console.log(test);
