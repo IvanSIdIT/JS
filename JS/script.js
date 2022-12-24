@@ -7,20 +7,29 @@
 // Messi = 'BEST';
 // console.log(Messi);
 
-//ДЗ №1
+/*
+ДЗ №1
 
-// let userName = 'Вася';
+ let userName = 'Вася';
 
-// let user = userName;
+ let user = userName;
 
-// console.log(user);
+ console.log(user);
 
-//конец ДЗ №1
-
-// let test = 1;
-
-// console.log(test);
+конец ДЗ №1
+*/
 
 // test = Boolean(test);
 
 // console.log(test);
+
+// let test = '1';
+
+// console.log(typeof test);
+
+// var min = document.getElementById('example').value;
+// document.getElementById('min').innerHTML = min;
+function check() {
+  var min = document.getElementById('example').value;
+  document.getElementById('min').innerHTML = min;
+}
