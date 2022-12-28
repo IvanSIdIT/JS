@@ -44,6 +44,7 @@ function check() {
 }
 
 // ДЗ №2
+
 // let users = '132';
 // console.log(users ?? 'Без имени');
 
