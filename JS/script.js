@@ -52,6 +52,10 @@ function check() {
 // let newqwe = ++qwe;
 // console.log(newqwe);
 
+let qwe = 0;
+let newqwe = ++qwe;
+console.log(newqwe);
+
 // console.log(558 > 22++);
 
 // конец ДЗ №2
