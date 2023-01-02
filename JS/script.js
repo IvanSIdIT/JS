@@ -45,8 +45,8 @@ function check() {
 
 // ДЗ №2
 
-// let users = '132';
-// console.log(users ?? 'Без имени');
+// let users;
+// console.log(users ?? '<tp');
 
 // let qwe = 0;
 // let newqwe = ++qwe;
@@ -83,3 +83,5 @@ function check() {
 // }
 
 // конец ДЗ №3
+
+let num = 1;
