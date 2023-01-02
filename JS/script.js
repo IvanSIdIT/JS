@@ -43,7 +43,7 @@ function check() {
   document.getElementById('min').innerHTML = min;
 }
 
-// ДЗ №2
+ДЗ №2
 
 // let users = '132';
 // console.log(users ?? 'Без имени');
