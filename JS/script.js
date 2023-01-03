@@ -28,20 +28,8 @@
 // console.log(typeof test);
 
 // var min = document.getElementById('example').value;
+
 // document.getElementById('min').innerHTML = min;
-function check() {
-  var min = document.getElementById('example').value;
-  if (min < 25) {
-    min = 'you are younger then 25';
-  } else if (min < 55) {
-    min = 'you are younger then 55';
-  } else if (min < 90) {
-    min = 'you are younger then 90';
-  } else {
-    min = 'type your real age or dont use any letters';
-  }
-  document.getElementById('min').innerHTML = min;
-}
 
 // ДЗ №2
 
