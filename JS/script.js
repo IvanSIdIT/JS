@@ -87,3 +87,8 @@ function check() {
 // конец ДЗ №3
 
 let num = 1;
+function DD(numch) {
+  console.log(`Number: ` + numch);
+}
+
+DD(num);
