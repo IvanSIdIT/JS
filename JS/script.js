@@ -9,16 +9,14 @@
 
 function check() {
   var min = document.getElementById('example').value;
-  if (min < 25) {
-    min = 'you are younger then 25';
-  } else if (min < 55) {
-    min = 'you are younger then 55';
-  } else if (min < 90) {
-    min = 'you are younger then 90';
-  } else {
-    min = 'type your real age or dont use any letters';
+  if (min <= 0) {
+    min = 'Type real year';
+  } else if (min > 2022) {
+    min = 'Type real year';
+  } else if (min <= 2022) {
+    min = 2022 - min;
   }
-  document.getElementById('min').innerHTML = min;
+  document.getElementById('min').innerHTML = Boolean(typeof min);
 }
 
 /*
@@ -86,9 +84,14 @@ function check() {
 
 // конец ДЗ №3
 
-let num = 1;
-function DD(numch) {
-  console.log(`Number: ` + numch);
-}
+// function DD(numch) {
+//   console.log(`Number: ` + numch);
+// }
 
-DD(num);
+// DD(num);
+
+let num = 1;
+
+for (let i = 0; i < 3; i++) {
+  console.log(i);
+}

@@ -8,12 +8,16 @@
     <title>Учим JS</title>
   </head>
   <body>
-    <h1 id="time">
-      Your age-
-      <div id="min"></div>
-    </h1>
-    <input id="example" />
-    <button onclick="check()">Submit</button>
+    <main class="main">
+      <div class="main__content">
+        <h1 id="time">
+          Your age is
+          <div id="min" class="min"></div>
+        </h1>
+        <input id="example" class="input" placeholder="Type year of birth here" />
+        <button onclick="check()" class="button">Submit</button>
+      </div>
+    </main>
   </body>
   <script src="./JS/script.js"></script>
 </html>
