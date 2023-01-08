@@ -11,12 +11,15 @@ function check() {
   var min = document.getElementById('example').value;
   if (min <= 0) {
     min = 'Type real year';
+  } else if (min == 2023) {
+    min = 0;
   } else if (min > 2022) {
     min = 'Type real year';
   } else if (min <= 2022) {
-    min = 2022 - min;
+    min = `${2022 - min} or ${2023 - min}`;
   }
-  document.getElementById('min').innerHTML = Boolean(typeof min);
+  document.getElementById('min').innerHTML = min;
+  console.log(min);
 }
 
 /*
