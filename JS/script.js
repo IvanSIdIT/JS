@@ -93,8 +93,19 @@ function check() {
 
 // DD(num);
 
-let num = 1;
+// let num = 1;
 
-for (let i = 0; i < 3; i++) {
-  console.log(i);
+// for (let i = 0; i < 3; i++) {
+//   console.log(i);
+// }
+
+function betterThanAverage(classPoints, yourPoints) {
+  // Your code here
+  if (classPoints.summ / classPoints.length > yourPoints) {
+    console.log('true');
+  } else {
+    console.log('false');
+  }
 }
+
+betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9);
