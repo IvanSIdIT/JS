@@ -99,13 +99,31 @@ function check() {
 //   console.log(i);
 // }
 
-function betterThanAverage(classPoints, yourPoints) {
-  // Your code here
-  if (classPoints.summ / classPoints.length > yourPoints) {
-    console.log('true');
-  } else {
-    console.log('false');
-  }
+// function betterThanAverage(classPoints, yourPoints) {
+//   // Your code here
+//   if (classPoints.summ / classPoints.length > yourPoints) {
+//     console.log('true');
+//   } else {
+//     console.log('false');
+//   }
+// }
+
+// betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9);
+
+function abbrevName(name) {
+  let asr = name[0];
+  let s;
+  let i;
+  // while ((i = true)) {
+  //   i = Boolean(name[s]);
+  //   s++;
+  //   console.log(i);
+  // }
+  // for (let i; (i = true); s++) {
+  //   i = name[s];
+  // }
+
+  console.log(s);
 }
 
-betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9);
+abbrevName('Sam Harris');
