@@ -108,7 +108,7 @@ function check() {
 //   }
 // }
 
-// betterThanAverage([12, 23, 34, 45, 55, 67, 78, 89, 90], 9);
+// betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 9);
 
 function abbrevName(name) {
   let asr = name[0];
