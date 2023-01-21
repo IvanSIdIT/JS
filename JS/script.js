@@ -136,4 +136,9 @@ let BrBa = {
 
 BrBa['love you'] = true;
 
+let user = Object.assign({}, BrBa);
+user.looser = 'Skyler';
+
+Object.assign(BrBa, { ['likes Saul']: true, city: 'albukerke' });
 console.log(BrBa);
+console.log(user);
