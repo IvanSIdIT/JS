@@ -110,20 +110,30 @@ function check() {
 
 // betterThanAverage([12, 23, 34, 45, 56, 67, 78, 89, 90], 0);
 
-function abbrevName(name) {
-  let asr = name[0];
-  let s;
-  let i;
-  // while ((i = true)) {
-  //   i = Boolean(name[s]);
-  //   s++;
-  //   console.log(i);
-  // }
-  // for (let i; (i = true); s++) {
-  //   i = name[s];
-  // }
+// function abbrevName(name) {
+//   let asr = name[0];
+//   let s;
+//   let i;
+//   // while ((i = true)) {
+//   //   i = Boolean(name[s]);
+//   //   s++;
+//   //   console.log(i);
+//   // }
+//   // for (let i; (i = true); s++) {
+//   //   i = name[s];
+//   // }
+//   console.log(s);
+// }
 
-  console.log(s);
-}
+// abbrevName('Sam Harris');
+let main = 'Saske';
 
-abbrevName('Sam Harris');
+let BrBa = {
+  main,
+  looser: 'Jessy',
+  asac: 'shrader',
+};
+
+BrBa['love you'] = true;
+
+console.log(BrBa);
