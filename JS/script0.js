@@ -126,19 +126,44 @@ function check() {
 // }
 
 // abbrevName('Sam Harris');
-let main = 'Saske';
+// let main = 'Saske';
 
-let BrBa = {
-  main,
-  looser: 'Jessy',
-  asac: 'shrader',
-};
+// let BrBa = {
+//   main,
+//   looser: 'Jessy',
+//   asac: 'shrader',
+// };
 
-BrBa['love you'] = true;
+// BrBa['love you'] = true;
 
-let user = Object.assign({}, BrBa);
-user.looser = 'Skyler';
+// let user = Object.assign({}, BrBa);
+// user.looser = 'Skyler';
 
-Object.assign(BrBa, { ['likes Saul']: true, city: 'albukerke' });
-console.log(BrBa);
-console.log(user);
+// Object.assign(BrBa, { ['likes Saul']: true, city: 'albukerke' });
+// console.log(BrBa);
+// console.log(user);
+
+// let userInfo = {
+//   name: 'Вася',
+//   age: 30,
+// };
+// for (const key in userInfo) {
+//   const value = userInfo[key];
+//   console.log(value);
+// }
+
+// let userInfo = {};
+
+// userInfo.name = 'Вася';
+
+// userInfo.age = 30;
+
+// console.log(userInfo);
+
+// userInfo.name = 'Лена';
+
+// console.log(userInfo);
+
+// delete userInfo.name;
+
+// console.log(userInfo);
