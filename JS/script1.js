@@ -39,12 +39,26 @@
 
 // getGrade(1, 2, 3);
 
-function feast(beast, dish) {
-  let i = beast.length;
+// function feast(beast, dish) {
+//   let i = beast.length;
 
-  let s = dish.length;
+//   let s = dish.length;
 
-  return beast[0] === dish[0] && beast[i - 1] === dish[s - 1];
+//   return beast[0] === dish[0] && beast[i - 1] === dish[s - 1];
+// }
+
+// feast('laam', 'lassam');
+
+// function greet(name, owner) {
+//   if (name == owner) {
+//     console.log('Hello boss');
+//   } else {
+//     console.log('Hello guest');
+//   }
+// }
+
+// greet('Daniel', 'Daniel');
+
+function reverseWords(str) {
+  return str.split('').reverse().join();
 }
-
-feast('laam', 'lassam');
