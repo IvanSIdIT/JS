@@ -57,7 +57,7 @@
 //   }
 // }
 
-// greet('Daniel', 'Daniel');
+// greet('Danie', 'Daniel');
 
 // function reverseWords(str) {
 //   return str.split('').reverse().join();
