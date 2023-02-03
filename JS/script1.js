@@ -62,3 +62,16 @@
 // function reverseWords(str) {
 //   return str.split('').reverse().join();
 // }
+
+function isSquare(n) {
+  n = Math.sqrt(n);
+  if (Number.isInteger(n)) {
+    console.log(true);
+  } else if (n < 0) {
+    console.log(false);
+  } else {
+    console.log(false);
+  }
+}
+
+isSquare(763361641);
