@@ -63,15 +63,18 @@
 //   return str.split('').reverse().join();
 // }
 
-function isSquare(n) {
-  n = Math.sqrt(n);
-  if (Number.isInteger(n)) {
-    console.log(true);
-  } else if (n < 0) {
-    console.log(false);
-  } else {
-    console.log(false);
-  }
-}
+// function isSquare(n) {
+//   n = Math.sqrt(n);
+//   if (Number.isInteger(n)) {
+//     console.log(true);
+//   } else if (n < 0) {
+//     console.log(false);
+//   } else {
+//     console.log(false);
+//   }
+// }
 
-isSquare(763361641);
+// isSquare(763361641);
+let word = 'Привет!';
+
+console.log(word.startsWith(`При`));
