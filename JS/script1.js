@@ -75,6 +75,6 @@
 // }
 
 // isSquare(763361641);
-let word = 'Привет!';
+// let word = 'Привет!';
 
-console.log(word.startsWith(`При`));
+// console.log(word.startsWith(`При`));
