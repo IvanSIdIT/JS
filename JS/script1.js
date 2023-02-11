@@ -78,3 +78,46 @@
 // let word = 'Привет!';
 
 // console.log(word.startsWith(`При`));
+
+// let text = 'фрилансер';
+
+// console.log(text.includes('лан'));
+
+// var checkTree = function (root) {
+//   if (root[0] === root[1] + root[2]) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// };
+
+// checkTree([10, 4, 6]);
+// function disemvowel(str) {
+//   let i = 0;
+//   for (i = 0; i < str.length; i++) {
+//     if (str[i] === 'a') {
+//       str = str.replace('a', '');
+//     } else if (str[i] === 'u') {
+//       str = str.replace('u', '');
+//     } else if (str[i] === 'e') {
+//       str = str.replace('e', '');
+//     } else if (str[i] === 'i') {
+//       str = str.replace('i', '');
+//     } else if (str[i] === 'o') {
+//       str = str.replace('o', '');
+//     } else if (str[i] === 'A') {
+//       str = str.replace('A', '');
+//     } else if (str[i] === 'E') {
+//       str = str.replace('E', '');
+//     } else if (str[i] === 'I') {
+//       str = str.replace('I', '');
+//     } else if (str[i] === 'O') {
+//       str = str.replace('O', '');
+//     } else if (str[i] === 'U') {
+//       str = str.replace('U', '');
+//     }
+//   }
+//   return str;
+// }
+
+// console.log(disemvowel('uuuuuuUUEe'));
