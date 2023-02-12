@@ -121,3 +121,41 @@
 // }
 
 // console.log(disemvowel('uuuuuuUUEe'));
+
+// function noSpace(x) {
+//   let i = 0;
+//   for (i = 0; i < x.length; i++) {
+//     if (x[i] === 'q') {
+//       x[i] = ' ';
+//     }
+//   }
+//   console.log(x);
+// }
+
+// noSpace('qwe qeewq  qwewqe');
+
+// function noSpace(x) {
+//   let i = 0;
+//   let resu = '';
+//   for (i = 0; i < x.length; i++) {
+//     if (x[i] !== ' ') {
+//       resu = resu + x[i];
+//     }
+//   }
+//   console.log(resu);
+// }
+
+// noSpace('qq qq qq');
+
+// function areYouPlayingBanjo(name) {
+//   console.log(name[0].toLowerCase() === 'r' ? 1 : 2);
+// }
+
+// areYouPlayingBanjo('roman');
+
+let qwe = 'Jack';
+console.log(qwe);
+
+qwe[1] = 'S';
+
+console.log(qwe);
