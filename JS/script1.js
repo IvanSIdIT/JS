@@ -153,9 +153,36 @@
 
 // areYouPlayingBanjo('roman');
 
-let qwe = 'Jack';
-console.log(qwe);
+// let qwe = 'Jack';
+// console.log(qwe);
 
-qwe[1] = 'S';
+// qwe[1] = 'S';
 
-console.log(qwe);
+// console.log(qwe);
+
+// function qwe(nums) {
+//   let all = 0;
+//   let i = 0;
+//   for (i = 0; i < nums.length; i++) {
+//     all = all + nums[i];
+//   }
+
+//   console.log(all / nums.length);
+// }
+
+// qwe([1, 2, 3, 4]);
+
+// function bmi(weight, height) {
+//   let bmi = weight / (height * height);
+//   if (bmi <= 18.5) {
+//     console.log('Underweight');
+//   } else if (bmi <= 25.0) {
+//     console.log('Normal');
+//   } else if (bmi <= 30.0) {
+//     console.log('Overweight');
+//   } else {
+//     console.log('Obese');
+//   }
+// }
+
+// bmi(80, 1.8);
