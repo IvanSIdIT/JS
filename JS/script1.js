@@ -186,3 +186,24 @@
 // }
 
 // bmi(80, 1.8);
+
+// function validatePIN(pin) {
+//   if (typeof pin !== 'number') {
+//     return false;
+//   } else {
+//     pin = pin.toString().length;
+//   }
+
+//   if (pin === 4) {
+//     return true;
+//   } else if (pin === 6) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(validatePIN(1234));
+
+let pis = 123;
+console.log(Number.isInteger(pis));
+console.log(Math.sqrt(pis));
