@@ -241,6 +241,15 @@
 //   return [count, sum];
 // }
 
-let test = [];
+// let test = [];
 
-console.log(typeof test[0]);
+// console.log(typeof test[0]);
+
+function stray(n) {
+  for (let i = 0; i < n.length; i++) {
+    if (n[i] !== n[i + 1] && n[i] !== n[i - 1] && n[i] !== n[i + 2] && n[i] !== n[i - 2])
+      console.log(n[i]);
+  }
+}
+
+stray([1, 2, 1]);
