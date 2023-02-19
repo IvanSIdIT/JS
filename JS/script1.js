@@ -245,11 +245,25 @@
 
 // console.log(typeof test[0]);
 
-function stray(n) {
-  for (let i = 0; i < n.length; i++) {
-    if (n[i] !== n[i + 1] && n[i] !== n[i - 1] && n[i] !== n[i + 2] && n[i] !== n[i - 2])
-      console.log(n[i]);
+// function stray(n) {
+//   for (let i = 0; i < n.length; i++) {
+//     if (n[i] !== n[i + 1] && n[i] !== n[i - 1] && n[i] !== n[i + 2] && n[i] !== n[i - 2])
+//       console.log(n[i]);
+//   }
+// }
+
+// stray([1, 2, 1]);
+
+function wave(str) {
+  let res = [];
+
+  for (let i = 0; i < str.length; i++) {
+    res.push(str.slice(0, i) + str[i].toUpperCase() + str.slice(i));
   }
+
+  return res;
 }
 
-stray([1, 2, 1]);
+let test = 'Hello';
+
+console.log(test[4].toUpperCase);
