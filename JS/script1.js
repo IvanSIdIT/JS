@@ -254,16 +254,26 @@
 
 // stray([1, 2, 1]);
 
-function wave(str) {
-  let res = [];
+// function wave(str) {
+//   let res = [];
 
-  for (let i = 0; i < str.length; i++) {
-    res.push(str.slice(0, i) + str[i].toUpperCase() + str.slice(i));
-  }
+//   for (let i = 0; i < str.length; i++) {
+//     res.push(str.slice(0, i) + str[i].toUpperCase() + str.slice(i));
+//   }
 
-  return res;
+//   return res;
+// }
+
+// let test = 'Hello';
+
+// console.log(test[4].toUpperCase);
+
+function expressionMatter(a, b, c) {
+  let f = a * (b + c);
+  let s = a * b * c;
+  let t = a + b * c;
+  let fo = (a + b) * c;
+  console.log(Math.max(f, s, t, fo));
 }
 
-let test = 'Hello';
-
-console.log(test[4].toUpperCase);
+expressionMatter(1, 3, 1);
