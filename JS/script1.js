@@ -268,12 +268,12 @@
 
 // console.log(test[4].toUpperCase);
 
-function expressionMatter(a, b, c) {
-  let f = a * (b + c);
-  let s = a * b * c;
-  let t = a + b * c;
-  let fo = (a + b) * c;
-  console.log(Math.max(f, s, t, fo));
-}
+// function expressionMatter(a, b, c) {
+//   let f = a * (b + c);
+//   let s = a * b * c;
+//   let t = a + b * c;
+//   let fo = (a + b) * c;
+//   console.log(Math.max(f, s, t, fo));
+// }
 
-expressionMatter(1, 3, 1);
+// expressionMatter(1, 3, 1);
