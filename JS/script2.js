@@ -1,8 +1,25 @@
 let button = document.querySelector('.button');
 let elem = document.querySelector('.train__list');
+let delegate = document.querySelectorAll('.delegate');
 
-let script = () => {
-  elem.classList.toggle('active');
+let script = element => {
+  if (element.target.closest('.button')) {
+    elem.classList.toggle('active');
+  }
+
+  if (!element.target.closest('.button') && !element.target.closest('.train__list')) {
+    elem.classList.remove('active');
+  }
 };
 
-button.addEventListener('click', script);
+document.addEventListener('click', script);
+
+//Деллегирование
+
+elem.addEventListener('click', deleg);
+
+function deleg(el) {
+  if (el.target.closest('.delegate')) {
+    console.log('Clicked!');
+  }
+}
