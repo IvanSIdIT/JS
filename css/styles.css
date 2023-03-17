@@ -36,6 +36,8 @@ body {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  width: 100%;
+  display: flex;
 }
 
 .train__list.active {
