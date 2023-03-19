@@ -24,13 +24,26 @@
 //   }
 // }
 
+let border = Math.abs(
+  document.getElementById('field').clientWidth - document.getElementById('field').offsetWidth
+);
+
 const field = document.getElementById('field');
 const ball = document.getElementById('ball');
 
 function ballMove(event) {
-  console.log(event.clientX, event.clientY);
-  ball.style.left = event.clientX;
-  ball.style.top = event.clientY;
+  if (event.clientX > 30) {
+    ball.style.marginLeft = `${event.clientX - border / 2}px`;
+    console.log(event.clientX - border / 2);
+  } else {
+    ball.style.marginLeft = `${ball.offsetWidth / 2}px`;
+  }
+
+  if (event.clientY > 30) {
+    ball.style.marginTop = `${event.clientY - border / 2}px`;
+  } else {
+    ball.style.marginTop = `${ball.offsetWidth / 2}px`;
+  }
 }
 
 field.addEventListener('click', ballMove);
