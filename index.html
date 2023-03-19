@@ -6,10 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Учим JS</title>
+    <style>
+      #ball {
+        position: absolute;
+        transition: 0.3s;
+        left: 0px;
+        top: 0px;
+      }
+      #field {
+        position: relative;
+        width: 200px;
+        height: 150px;
+        border: 10px solid black;
+        background-color: #00ff00;
+        overflow: hidden;
+      }
+    </style>
   </head>
   <body>
     <div class="train">
-      <div class="train__wrap">
+      <div id="field">
+        <img src="https://ru.js.cx/clipart/ball.svg" id="ball" /> . . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+        . . . . . . .
+      </div>
+      <!-- <div class="train__wrap">
         <button type="button" id="button" class="button">Click Me!</button>
         <ul class="train__list">
           <li class="train__item"><button class="delegate">Menu</button></li>
@@ -18,7 +39,7 @@
           <li class="train__item"><button class="delegate">Workshop</button></li>
           <li class="train__item"><button class="delegate">Quit</button></li>
         </ul>
-      </div>
+      </div> -->
     </div>
     <!-- <main class="main">
       <div class="main__content">
