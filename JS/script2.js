@@ -28,7 +28,7 @@ let border = Math.abs(
   document.getElementById('field').clientWidth - document.getElementById('field').offsetWidth
 );
 
-// const field = document.getElementById('field');
+const field = document.getElementById('field');
 const ball = document.getElementById('ball');
 
 function ballMove(event) {
