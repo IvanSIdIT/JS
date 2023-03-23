@@ -47,3 +47,21 @@ function ballMove(event) {
 }
 
 field.addEventListener('click', ballMove);
+
+let binatySearch = (a, f) => {
+  let low = 0;
+  let high = a.length - 1;
+  let mid;
+  while (mid !== f) {
+    mid = Math.floor(low + high / 2);
+    if (f === a[mid]) console.log(a[mid]);
+    if (f > a[mid]) {
+      low = mid + 1;
+    } else if (f < a[mid]) {
+      high = mid - 1;
+    }
+    console.log(-1);
+  }
+};
+
+binatySearch([1, 2, 3, 4, 5, 6, 7, 8, 9], 5);
