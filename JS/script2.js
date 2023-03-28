@@ -49,20 +49,6 @@ function ballMove(event) {
 
 field.addEventListener('click', ballMove);
 
-// let binatySearch = (list, item) => {
-//   for (let i = 1; i < 1000000; i++) {
-//     list.push(i);
-//   }
-//   let low = 0;
-//   let high = list.length - 1;
-//   while (low <= high) {
-//     let mid = Math.floor((low + high) / 2);
-//     let guess = list[mid];
-//     if (item === guess) return `Index is ${mid}`;
-//     if (guess > item) high = mid - 1;
-//     if (guess < item) low = mid + 1;
-//   }
-//   return -1;
-// };
+// Events
 
-// console.log(binatySearch([], 684654));
+const block = document.querySelector('.events');
