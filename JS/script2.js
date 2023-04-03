@@ -47,7 +47,7 @@ function ballMove(event) {
   }
 }
 
-field.addEventListener('click', ballMove);
+field.addEventListener('click', ballMove); //Вешаем слушатель
 
 // Events
 
