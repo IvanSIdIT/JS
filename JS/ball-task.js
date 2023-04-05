@@ -22,3 +22,5 @@ function ballMove(event) {
 }
 
 field.addEventListener('click', ballMove); //Вешаем слушатель
+
+//Дебагг
