@@ -26,4 +26,19 @@
 
 // Events
 
-const block = document.querySelector('.events');
+// const block = document.querySelector('.events');
+
+function logCheck() {
+  let name = prompt('Type your login', 'name');
+
+  if (name === null) return 'Canceled';
+  if (name.toLowerCase() !== 'админ') return 'I dont know you';
+
+  let password = prompt('Type your password', 'password');
+  if (password === null) return 'Canceled';
+  if (password === 'qwe') return 'Welcome!';
+
+  return 'Wrong!';
+}
+
+alert(logCheck());
