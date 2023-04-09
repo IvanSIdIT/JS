@@ -28,17 +28,17 @@
 
 // const block = document.querySelector('.events');
 
-function logCheck() {
-  let name = prompt('Type your login', 'name');
+// function logCheck() {
+//   let name = prompt('Type your login', 'name');
 
-  if (name === null) return 'Canceled';
-  if (name.toLowerCase() !== 'админ') return 'I dont know you';
+//   if (name === null) return 'Canceled';
+//   if (name.toLowerCase() !== 'админ') return 'I dont know you';
 
-  let password = prompt('Type your password', 'password');
-  if (password === null) return 'Canceled';
-  if (password === 'qwe') return 'Welcome!';
+//   let password = prompt('Type your password', 'password');
+//   if (password === null) return 'Canceled';
+//   if (password === 'qwe') return 'Welcome!';
 
-  return 'Wrong!';
-}
+//   return 'Wrong!';
+// }
 
-alert(logCheck());
+// alert(logCheck());
