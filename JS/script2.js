@@ -1,4 +1,4 @@
-// let button = document.querySelector('.button
+// let button = document.querySelector('.button');
 // let elem = document.querySelector('.train__list');
 // let delegate = document.querySelectorAll('.delegate');
 
